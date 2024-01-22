@@ -35,7 +35,6 @@ python nucleus_training.py
 
 To make predictions using the pre-trained model, run the following command:
 
-```bash
 python nucleus_prediction.py
 
 
