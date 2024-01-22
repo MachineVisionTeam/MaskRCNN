@@ -1,6 +1,5 @@
 # Nucleus MaskRCNN
 
-
 This repository contains scripts and resources for training and utilizing MaskRCNN with a ResNet 101 backbone on the Nucleus dataset. The model is designed for instance segmentation tasks, specifically focusing on delineating nuclei within images.
 
 ## Files
@@ -27,16 +26,19 @@ Annotations in CSV format providing information about bounding boxes and class l
 
 ## Usage
 
-### 1. Training
+### Training and Prediction
 
 Run the `nucleus_training.py` script to train the MaskRCNN model. Adjust hyperparameters and configurations as needed for your dataset.
 
 ```bash
 python nucleus_training.py
 
-### 2. Prediction 
-
-Use the nucleus_prediction.py script to make predictions on new images using the pre-trained model weights.
+To make predictions using the pre-trained model, run the following command:
 
 ```bash
 python nucleus_prediction.py
+
+
+
+
+
