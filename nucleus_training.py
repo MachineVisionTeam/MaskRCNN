@@ -18,10 +18,7 @@ from tensorflow.keras.layers import Dense
 from tensorflow.keras.optimizers import Adam
 from sklearn.model_selection import train_test_split
 from sklearn.utils import class_weight
-
 class NucleusDataset(mrcnn.utils.Dataset):
-
-    
     def load_dataset(self, dataset_dir, is_train=True): 
         self.add_class("nucleus", 1, "tumor")
         self.add_class("nucleus", 2, "fibroblast")
